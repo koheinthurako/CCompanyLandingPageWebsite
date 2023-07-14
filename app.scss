@@ -1,0 +1,30 @@
+$font-family-sans-serif: 'Bai Jamjuree', sans-serif;
+
+$primary: hsl(171, 66%, 44%);
+$info: hsl(233, 100%, 69%);
+$dark: hsl(210, 10%, 33%);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+#bgHeader {
+    background-image: url(./clipboard-landing-page-master/images/bg-header-desktop.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    #bgHeader {
+        height: 1050px;
+    }
+}
