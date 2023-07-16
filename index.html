@@ -123,7 +123,7 @@
 
         <section class="mb-100">
             <div class="container to-down">
-                <div class="row row-cols-lg-5 row-cols-1 g-5 g-lg-0 justify-content-center">
+                <div class="row me-0 ms-0 row-cols-lg-5 row-cols-1 g-5 g-lg-0 justify-content-center">
                     <div class="col mb-5 mb-lg-0 text-center"><img src="./clipboard-landing-page-master/images/logo-google.png" alt=""></div>
                     <div class="col mb-5 mb-lg-0 text-center"><img src="./clipboard-landing-page-master/images/logo-ibm.png" alt=""></div>
                     <div class="col mb-5 mb-lg-0 text-center"><img src="./clipboard-landing-page-master/images/logo-microsoft.png" alt=""></div>
@@ -188,34 +188,29 @@
 
     <script>
         
-        var toDown = {
-            distance: '30%',
+        let toDown = {
+            distance: '50px',
             origin: 'top',
-            opacity: null,
-            duration: 800,
-            reset: true            
+            interval: 300,
+            duration: 800
         };
 
         ScrollReveal().reveal('.to-down', toDown);
 
-        var toRight = {
-            distance: '150%',
+        let toRight = {
+            distance: '50px',
             origin: 'left',
-            opacity: null,
-            duration: 800,
-            delay: 50,
-            reset: true            
+            interval: 300,
+            duration: 800
         };
 
         ScrollReveal().reveal('.to-right', toRight);
 
         var toLeft = {
-            distance: '150%',
+            distance: '50px',
             origin: 'right',
-            opacity: null,
-            duration: 500,
-            delay: 100,
-            reset: true
+            interval: 300,
+            duration: 800
         };
 
         ScrollReveal().reveal('.to-left', toLeft);
